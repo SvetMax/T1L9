@@ -45,13 +45,16 @@ div {
 }
 .relative-parent {
   position: relative;
-  float: top 20px, right 50px;
+  top: 20px;
+  right: 50px;
 }
 .absolute-parrent {
   position: absolute;
-  float: bottom 20px, right 50px;
+  bottom: 20px;
+  right: 50px;
 }
 .fixed-parent {
   position: fixed;
-  float: bottom 20px, left 30px;
+  bottom: 20px;
+  left: 30px;
 }

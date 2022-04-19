@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 div {
   padding: 16px;
 }
@@ -45,8 +48,8 @@ div {
 }
 .relative-parent {
   position: relative;
-  bottom: 20px;
-  right: 50px;
+  top: 20px;
+  left: 50px;
 }
 .absolute-parrent {
   position: absolute;
